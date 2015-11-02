@@ -14,4 +14,30 @@ Following step are to install Mean.
 
 5.) cd app && npm install
 
-6.) node bin/wwws   /** to start app or server ***/
+6.) node bin/www         /** to start app or server ***/
+
+======================================================
+
+1.) mkdir test
+
+2.) cd test
+
+3.) express
+
+4.) sudo npm install express --save
+
+5.) sudo npm install serve-favicon
+
+6.) sudo npm install morgan
+
+7.) sudo npm install cookie-parser
+
+8.) sudo npm install body-parser
+
+9.) sudo npm install jade
+
+10.)  node bin/www       // for starting app or server //
+
+
+
+
