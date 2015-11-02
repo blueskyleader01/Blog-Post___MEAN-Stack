@@ -36,7 +36,7 @@ Following step are to install Mean.
 
 9.) sudo npm install jade
 
-10.)  node bin/www       // for starting app or server //
+10.)  node bin/www      /** to start app or server ***/
 
 
 
