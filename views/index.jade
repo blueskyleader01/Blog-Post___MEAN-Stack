@@ -1,0 +1,17 @@
+extends layout
+
+block body
+  div(ng-controller='AppCtrl')
+    h2 Hello Express
+    ul.menu
+      li
+        a(href='/') view1
+      li
+        a(href='view2') view2
+
+    div(ng-view)
+
+
+  script(src='javascripts/angular.min.js')
+  script(src='javascripts/angular-route.js')
+  script(src='javascripts/app.js')
