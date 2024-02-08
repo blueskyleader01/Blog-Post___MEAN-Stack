@@ -6,4 +6,8 @@ router.get('/', function(req, res, next) {
   res.send('respond with a resource');
 });
 
+router.get('/fetchAllusers', function(req,res, next) {
+  res.send('//////');
+})
+
 module.exports = router;
